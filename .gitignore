@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────
+# Cash Flow Intelligence System — .gitignore
+# ─────────────────────────────────────────────
+
+# Data — never commit raw or processed data
+data/raw/
+data/processed/
+data/exports/
+
+# Model artifacts — too large for git
+models_saved/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
