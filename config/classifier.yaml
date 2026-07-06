@@ -1,0 +1,33 @@
+target_col: LATE_FLAG
+test_size: 0.2
+random_seed: 42
+cv_folds: 5
+calibration:
+  enabled: true
+  method: sigmoid
+
+xgb_params:
+  n_estimators: 500
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+  min_child_weight: 5
+  scale_pos_weight: 2
+  eval_metric: auc
+  early_stopping_rounds: 50
+  random_state: 42
+
+feature_cols:
+  - LOG_AMOUNT
+  - PAYMENT_DAYS_NUM
+  - INDUSTRY_CODE
+  - REGION_CODE
+  - CUST_AVG_DAYS_LATE
+  - CUST_LATE_RATE
+  - CUST_INVOICE_COUNT
+  - CUST_AVG_AMOUNT
+  - INVOICE_MONTH
+  - INVOICE_QUARTER
+  - INVOICE_DOW
+  - IS_QUARTER_END

@@ -1,0 +1,22 @@
+directories:
+  data: data
+  raw: data/raw
+  processed: data/processed
+  exports: data/exports
+  models: models_saved
+  notebooks: notebooks
+
+files:
+  raw:
+    customer_master: customer_master.csv
+    invoice_history: invoice_history.csv
+    ar_aging: ar_aging_fbl5n.csv
+    gl_cash: gl_cash_positions.csv
+  processed:
+    feature_store: feature_store.csv
+    train: train.csv
+    test: test.csv
+  models:
+    classifier: classifier_xgb.json
+    forecaster: forecaster_lgbm.pkl
+    shap_explainer: shap_explainer.pkl

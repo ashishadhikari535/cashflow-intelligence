@@ -1,0 +1,5 @@
+app_title: CFO Cash Flow Intelligence
+app_icon: "$"
+default_horizon: 30
+risk_threshold: 0.6
+top_n_risks: 20

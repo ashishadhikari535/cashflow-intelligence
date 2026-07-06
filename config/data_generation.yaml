@@ -1,0 +1,51 @@
+n_customers: 200
+n_invoices: 5000
+start_date: "2021-01-01"
+end_date: "2024-06-30"
+random_seed: 42
+
+payment_terms:
+  NT14: 14
+  NT30: 30
+  NT45: 45
+  NT60: 60
+  NT90: 90
+
+industries:
+  - Energy
+  - Manufacturing
+  - Retail
+  - Healthcare
+  - Construction
+  - Logistics
+
+regions:
+  - South
+  - Northeast
+  - Midwest
+  - West
+  - International
+
+aging_buckets:
+  - Current
+  - 1-30 days
+  - 31-60 days
+  - 61-90 days
+  - 91-180 days
+  - 180+ days
+
+risk_weights:
+  - 0.55
+  - 0.30
+  - 0.15
+
+payment_delay_map:
+  Low:
+    mean: 2
+    std: 3
+  Medium:
+    mean: 12
+    std: 8
+  High:
+    mean: 28
+    std: 15
