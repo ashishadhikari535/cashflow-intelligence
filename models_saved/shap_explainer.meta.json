@@ -1,0 +1,20 @@
+{
+  "classifier_file": "classifier_xgb.json",
+  "classifier_sha256": "eda7c7aaaa4a36cd23da226a0053ab32ae540fd5783ba37c24eff5ce1496ce43",
+  "feature_cols": [
+    "LOG_AMOUNT",
+    "PAYMENT_DAYS_NUM",
+    "INDUSTRY_CODE",
+    "REGION_CODE",
+    "CUST_AVG_DAYS_LATE",
+    "CUST_LATE_RATE",
+    "CUST_INVOICE_COUNT",
+    "CUST_AVG_AMOUNT",
+    "INVOICE_MONTH",
+    "INVOICE_QUARTER",
+    "INVOICE_DOW",
+    "IS_QUARTER_END"
+  ],
+  "n_features": 12,
+  "threshold": 0.5600000000000003
+}

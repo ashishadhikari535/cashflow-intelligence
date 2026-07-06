@@ -1,0 +1,313 @@
+BELNR,KUNNR,BLDAT,FAEDT,DMBTR,INDUSTRY,REGION,ZTERM,RISK_TIER,STATUS,LOG_AMOUNT,PAYMENT_DAYS_NUM,INDUSTRY_CODE,REGION_CODE,CUST_AVG_DAYS_LATE,CUST_LATE_RATE,CUST_INVOICE_COUNT,CUST_AVG_AMOUNT,INVOICE_MONTH,INVOICE_QUARTER,INVOICE_DOW,IS_QUARTER_END,CUST_ROLLING3_DAYS_LATE,CUST_LATE_TREND,CUST_MAX_INVOICE,CUST_AMOUNT_CONCENTRATION,CUST_TOTAL_EXPOSURE,INVOICE_TO_CREDIT_RATIO,ACTUAL_TERM_DAYS,IS_MONTH_END,IS_MONDAY,LOG_CASH_POSITION,FISCPER,LATE_FLAG,DAYS_LATE,LATE_PROB,LATE_PRED,RISK_LABEL,NARRATIVE
+1800002697,C000108,2022-06-25,2022-07-09,160432.54,Retail,Northeast,NT14,High,CLEARED,11.985635054800111,14,5,2,23.875,0.875,8,127211.93125,6,2,5,1,15.333333333333334,-8.541666666666666,231539.59,1.2611438127192178,1017695.45,0.1361403120984426,14,1,0,16.39284296418005,202206,1.0,49.0,0.9677,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 24 days late (stable trend)
+  • Customer late rate: 88% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800000785,C000187,2022-06-05,2022-07-20,62618.89,Manufacturing,West,NT45,High,CLEARED,11.04483823825158,45,4,4,25.666666666666668,1.0,6,133154.305,6,2,6,1,23.33333333333333,-2.333333333333336,240348.44,0.4702731165920621,798925.83,0.2034986265224116,45,0,0,16.39284296418005,202206,1.0,5.0,0.9666,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0135
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004247,C000186,2021-08-14,2021-08-28,88927.1,Retail,International,NT14,High,CLEARED,11.395583457046817,14,5,0,16.6,1.0,5,144722.972,8,3,5,0,18.666666666666668,2.0666666666666664,245546.85,0.6144643021841757,723614.86,0.290371340664657,14,0,0,16.1612651458622,202108,1.0,4.0,0.9666,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 17 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INVOICE_MONTH: reduces risk by 0.0074
+  ✓ INVOICE_QUARTER: reduces risk by 0.0055
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002258,C000199,2023-08-03,2023-08-17,97463.99,Construction,West,NT14,High,CLEARED,11.487248515579306,14,0,4,26.428571428571427,0.9285714285714286,14,140036.47214285712,8,3,3,0,29.33333333333333,2.904761904761905,240816.02,0.695990041084246,1960510.61,0.0518107592156701,14,0,0,16.172799722028284,202308,1.0,42.0,0.9664,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (deteriorating trend)
+  • Customer late rate: 93% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0254
+  ✓ IS_QUARTER_END: reduces risk by 0.0036
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004235,C000166,2022-09-20,2022-11-19,82250.3,Logistics,West,NT60,High,CLEARED,11.317534473973838,60,3,4,24.875,1.0,8,139193.765,9,3,1,1,17.0,-7.875,236797.87,0.5909050595764831,1113550.12,0.0419089442771894,60,0,0,16.36440081401556,202209,1.0,14.0,0.9661,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 25 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0132
+  ✓ PAYMENT_DAYS_NUM: reduces risk by 0.0108
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004015,C000108,2022-05-24,2022-06-07,84540.43,Retail,Northeast,NT14,High,CLEARED,11.344996989047512,14,5,2,23.666666666666668,0.8333333333333334,6,149166.68833333332,5,2,1,0,11.666666666666666,-12.000000000000002,231539.59,0.5667514037120865,895000.13,0.0717395643373628,14,0,0,16.5386766915339,202205,1.0,21.0,0.9659,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 24 days late (stable trend)
+  • Customer late rate: 83% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0206
+  ✓ IS_QUARTER_END: reduces risk by 0.0007
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002842,C000137,2022-07-27,2022-08-10,84329.48,Logistics,Northeast,NT14,High,CLEARED,11.34249864447707,14,3,2,30.125,1.0,8,113985.61125,7,3,2,0,40.66666666666666,10.541666666666664,225210.38,0.7398256593548775,911884.89,0.1489762373928103,14,1,0,15.88099727872502,202207,1.0,20.0,0.9656,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 30 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0168
+  ✓ INVOICE_QUARTER: reduces risk by 0.0075
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002864,C000065,2022-09-16,2022-10-16,85009.69,Healthcare,Northeast,NT30,High,CLEARED,11.350532292270618,30,2,2,28.63636363636364,0.9090909090909092,11,136937.66090909092,9,3,4,1,24.0,-4.636363636363637,249901.83,0.6207911646485298,1506314.27,0.2126553855254074,30,0,0,16.36440081401556,202209,1.0,37.0,0.9652,1,High,"[HIGH RISK]  Late probability: 97%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 29 days late (stable trend)
+  • Customer late rate: 91% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INVOICE_QUARTER: reduces risk by 0.0007
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800000659,C000184,2022-05-09,2022-06-08,89217.46,Retail,International,NT30,High,CLEARED,11.39884324782941,30,5,0,28.77777777777778,1.0,9,102061.71777777775,5,2,0,0,9.333333333333334,-19.444444444444443,205830.12,0.8741520517443772,918555.46,0.0690855848258152,30,0,1,16.5386766915339,202205,1.0,20.0,0.965,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 29 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ IS_QUARTER_END: reduces risk by 0.0021
+  ✓ INVOICE_DOW: reduces risk by 0.0005
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002423,C000041,2023-01-18,2023-02-01,175519.63,Manufacturing,South,NT14,High,CLEARED,12.075511864837164,14,4,3,25.666666666666668,1.0,6,157144.07833333334,1,1,2,0,30.33333333333333,4.666666666666664,233510.12,1.116934420065696,942864.47,0.2083300727289745,14,0,0,16.2232891233652,202301,1.0,19.0,0.9649,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0148
+  ✓ REGION_CODE: reduces risk by 0.0143
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800003955,C000040,2022-10-22,2022-11-05,162300.35,Construction,West,NT14,High,CLEARED,11.997210071397848,14,0,4,28.23076923076923,1.0,13,135205.15076923076,10,4,5,0,31.666666666666668,3.435897435897438,234235.26,1.2004006435895,1757666.96,1.0918490649405936,14,0,0,15.91369935160015,202210,1.0,42.0,0.9646,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 28 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice size: $162,300 — above customer average (requires additional approval steps)
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0415
+  ✓ IS_QUARTER_END: reduces risk by 0.0028
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002254,C000199,2023-08-23,2023-09-06,127574.89,Construction,West,NT14,High,CLEARED,11.756466682196296,14,0,4,27.466666666666665,0.9333333333333332,15,137198.30666666667,8,3,2,0,36.0,8.533333333333335,240816.02,0.9298576134030032,2057974.6,0.067817374476005,14,0,0,16.172799722028284,202308,1.0,32.0,0.9643,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 27 days late (deteriorating trend)
+  • Customer late rate: 93% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0272
+  ✓ INVOICE_DOW: reduces risk by 0.0051
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002895,C000030,2022-04-03,2022-05-03,164053.34,Healthcare,Midwest,NT30,High,CLEARED,12.00795299338829,30,2,1,30.8,1.0,10,135316.6,4,2,6,0,22.666666666666668,-8.133333333333333,245918.44,1.2123667014985595,1353166.0,0.1245411420403535,30,0,0,15.13830079876955,202204,1.0,27.0,0.9643,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 31 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice size: $164,053 — above customer average (requires additional approval steps)
+
+Mitigating factors:
+  ✓ IS_QUARTER_END: reduces risk by 0.0028
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800003602,C000137,2022-09-18,2022-10-02,148977.61,Logistics,Northeast,NT14,High,CLEARED,11.911558017575317,14,3,2,29.5,1.0,10,101046.669,9,3,6,1,32.666666666666664,3.1666666666666643,225210.38,1.4743445922002631,1010466.69,0.2631834536816013,14,0,0,16.36440081401556,202209,1.0,35.0,0.9636,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 30 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INVOICE_MONTH: reduces risk by 0.0131
+  ✓ INVOICE_DOW: reduces risk by 0.0091
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800000936,C000107,2024-01-10,2024-03-10,104976.94,Retail,Midwest,NT60,High,CLEARED,11.56150551182847,60,5,1,30.61904761904762,1.0,21,135457.5480952381,1,1,2,0,34.333333333333336,3.7142857142857153,244392.36,0.7749803645212324,2844608.51,0.0852437909095135,60,0,0,16.21899337586284,202401,1.0,42.0,0.9635,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 31 days late (deteriorating trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INVOICE_DOW: reduces risk by 0.0085
+  ✓ IS_QUARTER_END: reduces risk by 0.0079
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800002366,C000184,2022-01-21,2022-02-20,55392.88,Retail,International,NT30,High,CLEARED,10.92222439731911,30,5,0,34.142857142857146,1.0,7,105477.21857142856,1,1,4,0,26.33333333333333,-7.809523809523814,205830.12,0.5251643980589823,738340.53,0.0428935043654706,30,0,0,16.655760980659196,202201,1.0,12.0,0.9635,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 34 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Extended payment terms (30 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ IS_QUARTER_END: reduces risk by 0.0045
+  ✓ INVOICE_MONTH: reduces risk by 0.0021
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004849,C000073,2023-06-06,2023-07-06,102722.5,Energy,Midwest,NT30,High,CLEARED,11.539796191552032,30,1,1,28.444444444444443,1.0,9,132391.53333333333,6,2,1,1,22.33333333333333,-6.111111111111111,191484.1,0.7758993148101616,1191523.8,0.114096537360997,30,0,0,15.589633756749734,202306,1.0,35.0,0.9635,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 28 days late (stable trend)
+  • Customer late rate: 100% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0306
+  ✓ INVOICE_DOW: reduces risk by 0.0081
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004767,C000199,2023-07-12,2023-07-26,59629.65,Construction,West,NT14,High,CLEARED,10.995924982611154,14,0,4,26.07692307692308,0.9230769230769232,13,146221.6123076923,7,3,2,0,19.0,-7.076923076923077,240816.02,0.4078032587585075,1900880.96,0.0316984502508535,14,0,0,16.00749806911076,202307,1.0,31.0,0.9635,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (stable trend)
+  • Customer late rate: 92% of historical invoices paid late
+  • Extended payment terms (14 days) increase collection window and exposure duration
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0356
+  ✓ INVOICE_DOW: reduces risk by 0.0108
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800004924,C000065,2022-12-31,2023-01-30,68925.1,Healthcare,Northeast,NT30,High,CLEARED,11.14079019514078,30,2,2,25.73333333333333,0.8666666666666667,15,139386.518,12,4,5,1,11.333333333333334,-14.4,249901.83,0.4944890007224372,2090797.77,0.1724190937865702,30,1,0,16.458918412450345,202212,1.0,4.0,0.9635,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (stable trend)
+  • Customer late rate: 87% of historical invoices paid late
+  • Invoice materially larger than this customer's historical average — atypical transaction pattern
+
+Mitigating factors:
+  ✓ INVOICE_MONTH: reduces risk by 0.0034
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
+1800000456,C000052,2022-12-18,2023-01-01,162740.62,Construction,South,NT14,High,CLEARED,11.9999190687298,14,0,3,25.923076923076923,0.9230769230769232,13,131728.96384615384,12,4,6,1,16.333333333333332,-9.589743589743591,225022.07,1.2354201782841367,1712476.53,0.1570135280136721,14,0,0,16.458918412450345,202212,1.0,13.0,0.9634,1,High,"[HIGH RISK]  Late probability: 96%
+Recommended action: Immediate escalation to senior collections
+
+Key risk drivers:
+  • Customer payment history: averaging 26 days late (stable trend)
+  • Customer late rate: 92% of historical invoices paid late
+  • Invoice size: $162,741 — above customer average (requires additional approval steps)
+
+Mitigating factors:
+  ✓ INDUSTRY_CODE: reduces risk by 0.0517
+  ✓ INVOICE_DOW: reduces risk by 0.0092
+
+Suggested actions:
+  1. Immediate escalation to senior collections
+  2. Review credit limit — customer late on >50% of invoices
+  3. Flag for CFO review if not resolved within 10 days"
